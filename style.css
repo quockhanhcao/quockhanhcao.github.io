@@ -974,7 +974,9 @@ footer .container ul li:nth-child(5) a {
     display: flex;
     justify-content: space-around;
   }
-
+  #team-list > div:hover > div .mask {
+    display: none;
+  }
   #team .responsive-mask ul {
     text-align: center;
   }
@@ -999,7 +1001,9 @@ footer .container ul li:nth-child(5) a {
   #work-list > div > div:last-child {
     display: block;
   }
-
+  #work-list > div:hover .mask {
+    display: none;
+  }
   #action {
     padding: 0px;
   }
